@@ -17,3 +17,6 @@ rgb (200,4,4) means how much red = 200, green = 4, and blue = 4 do we have in th
 255,255,255 is a white and 0,0,0 is a black
 
 Pseudo class
+
+DEVTOOLS, css box model- as example of join button using height and weight is not a good method so we use padding
+box model : how much space does the element take and how much far is it from the otheer elements
