@@ -20,3 +20,11 @@ Pseudo class
 
 DEVTOOLS, css box model- as example of join button using height and weight is not a good method so we use padding
 box model : how much space does the element take and how much far is it from the otheer elements
+
+Three HTML ELEMENTS
+
+BLOCK ELEMENT -TAKES THE ENTIRE LINE EX: PARAGRAH
+IN-LINE BLOCK ELEMENT - ONLY TAKES AS MUCH SPACE AS NEEDED EX IMAGE
+INLINE - TAKES A PART OF THE TEXT EXAMPLE <STRONG>
+
+<DIV> - contain any other element inside, Div is just a box container
