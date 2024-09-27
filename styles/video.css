@@ -23,7 +23,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 
@@ -33,12 +33,13 @@
 }
 
 .profile-picture {
-    width: 40px;
+    width: 36px;
     border-radius: 50px;
 }
 
 .thumbnail-row {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
+    position: relative;
 }
 
 .video-author,
@@ -56,4 +57,39 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
+}
+
+@media (max-width:900px){
+    .video-grid{
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width:901px) and (max-width:1199px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        }  
+}
+
+@media (min-width:1200px){
+    .video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.video-time{
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 4px 4px 4px;
+    /* padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px; */
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
 }
